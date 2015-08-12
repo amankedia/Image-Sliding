@@ -1,0 +1,128 @@
+body { 
+  background: url("../IMAGES/back.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#intro{
+	background-color: #7FFFD4;
+	border: 1px solid #dedede;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+	color: #888;
+	display: block;
+	margin: 8px auto;
+	overflow: hidden;
+	width: 50%;
+	text-align: center;
+}
+.container {
+  margin: 30px auto;
+  width: 50%;
+  border-radius: 5px;
+  background: #FA8072;
+}
+.previous{
+  margin :10px auto;
+  position: relative;
+  width: 80px;
+  height: 20px;
+  background: #F0E68C;
+  border-radius: 5px;
+  border-color:black;
+  font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+  font-size: 12px;
+  text-align: center;  
+}
+.next{
+  margin :10px auto;
+  padding-left :80%
+  position: relative;
+  width: 80px;
+  height: 20px;
+  background: #F0E68C;
+  border-radius: 5px;
+  border-color:black;
+  font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+.lefttop{
+  margin: -30% 20% -5px 80px;
+  padding: 20px 20px 20px;
+  width: 11.85%;
+  height: 100px;
+  background: #FA8072;
+  border-radius: 5px;
+}
+.leftbottom{
+  margin: 5% 0% 0% 80px;
+  padding: 20px 20px 20px;
+  width: 11.85%;
+  height: 100px;
+  background: #FA8072;
+  border-radius: 5px;
+}
+.subtext{
+	margin:10% 0% 0% 0%;
+	text-align:center;
+	color: #344059;
+}
+.righttop{
+  position : relative;
+  margin: -25.6% 20% 0% 80%;
+  padding: 20px 20px 20px;
+  width: 11.85%;
+  height: 100px;
+  background: #FA8072;
+  border-radius: 5px;
+}
+.rightbottom{
+  position : relative;
+  margin: 5% 0% 0% 80%;
+  padding: 20px 20px 20px;
+  width: 11.85%;
+  height: 100px;
+  background: #FA8072;
+  border-radius: 5px;
+}
+.slider {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 320px;
+  background: #FA8072;
+  border-radius: 5px;
+  }
+h1 {
+    margin: -20px -20px -5px;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    background: #4682B4;
+    border-bottom: 1px solid #cfcfcf;
+    border-radius: 3px 3px 0 0;
+    linear-gradient(top, whiteffd, #eef2f5);
+    include box-shadow(0 1px #f5f5f5);
+ }
+.slidersub {
+  position: relative;
+  width: 160px;
+  background: #FA8072;
+  border-radius: 5px;
+  }
+img {
+  width: 100%;
+  height: 55%;
+  color: #404040;
+  background: white;
+  border: 1px solid;
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+  border-radius: 2px;
+  outline: 5px solid #eff4f7;
+  -moz-outline-radius: 3px; // Can we get this on WebKit please?
+  box-shadow(inset 0 1px 3px rgba(black, .12));
+  }
